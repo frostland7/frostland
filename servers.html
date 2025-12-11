@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FrostLand — Серверы</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://i.ibb.co/0j1RzTn/snow-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+header { background: rgba(27,38,59,0.85); padding: 20px; text-align: center; font-size: 36px; font-weight: bold; }
+nav { background: rgba(65,90,119,0.85); padding: 10px; text-align: center; }
+nav a { color: white; font-size: 18px; text-decoration: none; padding: 12px 20px; margin: 0 5px; border-radius: 8px; }
+nav a:hover { background: rgba(255,255,255,0.2); }
+.section { padding: 50px 20px; text-align: center; }
+.ip-box { font-size: 24px; padding: 15px; background: rgba(65,90,119,0.8); border-radius: 10px; margin: 20px auto; display: inline-block; font-weight: bold; }
+button { background: #a9d6e5; color: #0d1b2a; border: none; padding: 12px 25px; border-radius: 10px; cursor: pointer; font-size: 18px; margin-top: 10px; }
+button:hover { background: #f0f8ff; }
+</style>
+</head>
+<body>
+
+<header>FrostLand — Серверы</header>
+
+<nav>
+<a href="index.html">Главная</a>
+<a href="servers.html">Серверы</a>
+<a href="donate.html">Донат</a>
+<a href="team.html">Команда</a>
+<a href="faq.html">FAQ</a>
+</nav>
+
+<div class="section">
+<h2>Java Edition</h2>
+<div class="ip-box">frostland.java.host</div>
+<button onclick="navigator.clipboard.writeText('frostland.java.host'); alert('IP скопирован!')">Копировать IP</button>
+
+<h2>Bedrock Edition</h2>
+<div class="ip-box">frostland.bedrock.host</div>
+<button onclick="navigator.clipboard.writeText('frostland.bedrock.host'); alert('IP скопирован!')">Копировать IP</button>
+</div>
+
+</body>
+</html>
